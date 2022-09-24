@@ -1,4 +1,4 @@
-vim.g.mapleader = " "
+vim.g.mapleader = ","
 vim.g.maploaclleader = " "
 
 local map = vim.api.nvim_set_keymap
@@ -24,7 +24,7 @@ map('n', '<A-k>', '<C-w>k', opt)
 map('n', '<A-l>', '<C-w>l', opt)
 
 --nvim-tree
-map("n", '<A-t>', ':NvimTreeToggle<CR>', opt)
+map("n", '<Leader>t', ':NvimTreeToggle<CR>', opt)
 
 --float term
 map('n', 'tt', ':FloatermNew<CR>', opt)

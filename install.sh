@@ -12,5 +12,5 @@ pip3 isntall cmake-language-server
 sudo apt install npm
 sudo npm install -g n
 source ~/.bashrc
-sudo n satble
+sudo n stable
 sudo npm i -g pyright
