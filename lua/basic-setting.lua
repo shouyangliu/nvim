@@ -31,3 +31,6 @@ vim.o.updatetime = 300
 vim.o.timeoutlen = 300
 vim.splitbelow = true
 vim.splitright = true
+vim.cmd "set showmatch"
+--vim.cmd "set completeopt=menu,noinsert"
+

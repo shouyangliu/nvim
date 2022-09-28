@@ -12,6 +12,8 @@ map('i', '{}', '{}<Left>', opt)
 map('i', '<>',  '<><Left>', opt)
 
 map('n', 'wq', ':wq<CR>', opt)
+map('n', 'ww', ':w<CR>', opt)
+map('n', 'qq', ':q<CR>', opt)
 
 map('v', '<', '<gv', opt)
 map('v', '>', '>gv', opt)
