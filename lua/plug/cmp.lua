@@ -4,12 +4,6 @@ local lspconfig = require('lspconfig')
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 
---local line = vim.api.nvim_get_current_line()
---local cursor = vim.api.nvim_win_get_cursor(0)[2]
---local current = string.sub(line, cursor, cursor + 1)
---if current == " " or current == "a" then
---    cmp.mapping.abort()
---end
 
 cmp.setup{
     sources = cmp.config.sources({
@@ -29,15 +23,20 @@ cmp.setup{
        })
     },
 
+    window = {
+        completion = cmp.config.window.bordered(),
+        decumentation = cmp.config.window.bordered(),
+    },
+
     mapping = {
-        ["<C-n>"] = cmp.mapping(function(fallback)
+        ["<Tab>"] = cmp.mapping(function(fallback)
             if cmp.visible() then
                 cmp.select_next_item()
             else
               fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
             end
         end, { "i", "s" }),
-        ["<C-p>"] = cmp.mapping(function()
+        ["<C-Tab>"] = cmp.mapping(function()
             if cmp.visible() then
                 cmp.select_prev_item()
             end

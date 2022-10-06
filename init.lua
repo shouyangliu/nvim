@@ -6,8 +6,10 @@ require('plug/nvim-tree')
 require('plug/lspconfig')
 require('plug/cmp')
 require('plug/airline')
-require('plug/treesitter')
+--require('plug/treesitter')
 require('plug/autotag')
+require('plug/vimspector/vimspector')
+
 
 --background
 vim.cmd "colorscheme seoul256" --theme

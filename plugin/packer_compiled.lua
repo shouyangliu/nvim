@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/bat/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/home/bat/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    url = "https://github.com/junegunn/fzf.vim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/bat/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
@@ -158,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/bat/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
+  },
+  vimspector = {
+    loaded = true,
+    path = "/home/bat/.local/share/nvim/site/pack/packer/start/vimspector",
+    url = "https://gitclone.com/github.com/puremourning/vimspector"
   }
 }
 

@@ -29,8 +29,9 @@ vim.o.writbackup = false
 vim.o.swapfile = false
 vim.o.updatetime = 300
 vim.o.timeoutlen = 300
-vim.splitbelow = true
-vim.splitright = true
 vim.cmd "set showmatch"
---vim.cmd "set completeopt=menu,noinsert"
+vim.cmd "set splitbelow"
+vim.cmd "set splitright"
 
+--剪贴板
+vim.cmd "set clipboard+=unnamedplus"
