@@ -13,19 +13,19 @@ cmp.setup{
         {name = 'nvim_lsp'},
     }),
    formatting = {
-       format = lspkind.cmp_format({
-           with_text = true,
-           maxwidth = 50,
-           before = function(entry, vim_item)
-               vim_item.menu = "["..string.upper(entry.source.name).."]"
-               return vim_item
-           end
-       })
+--       format = lspkind.cmp_format({
+--           with_text = true,
+--           maxwidth = 50,
+--           before = function(entry, vim_item)
+--               vim_item.menu = "["..string.upper(entry.source.name).."]"
+--               return vim_item
+--           end
+--       })
     },
 
     window = {
-        completion = cmp.config.window.bordered(),
-        decumentation = cmp.config.window.bordered(),
+--        completion = cmp.config.window.bordered(),
+--        decumentation = cmp.config.window.bordered(),
     },
 
     mapping = {

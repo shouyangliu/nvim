@@ -17,15 +17,8 @@ return require('packer').startup(function()
     --airline
     use 'vim-airline/vim-airline'
     use 'vim-airline/vim-airline-themes'
-    --use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
-    use 'windwp/nvim-ts-autotag'
     use({
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
         })
-
-    --debugger
-    use 'https://gitclone.com/github.com/puremourning/vimspector'
-    use {'junegunn/fzf', dir = '~/.fzf', run = './install --all'}
-    use 'junegunn/fzf.vim'
     end)
