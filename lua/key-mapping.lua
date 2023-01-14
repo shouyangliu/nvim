@@ -24,7 +24,7 @@ map('n', '<A-h>', '<C-w>h', opt)
 map('n', '<A-j>', '<C-w>j', opt)
 map('n', '<A-k>', '<C-w>k', opt)
 map('n', '<A-l>', '<C-w>l', opt)
-map("n", "<C-t>", ":sp term://$SHELL<CR>", opt)
+map("n", "<S-t>", ":sp term://$SHELL<CR>", opt)
 
 --resize the window
 map('n', '<A-Up>', ':resize -2<CR>', opt)

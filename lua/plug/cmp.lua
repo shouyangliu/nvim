@@ -7,10 +7,10 @@ capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 
 cmp.setup{
     sources = cmp.config.sources({
+        {name = 'nvim_lsp'},
         {name = 'buffer'},
         {name = 'path'},
 --        {name = 'cmdline'},
-        {name = 'nvim_lsp'},
     }),
    formatting = {
 --       format = lspkind.cmp_format({

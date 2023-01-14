@@ -5,6 +5,8 @@ return require('packer').startup(function()
 		'kyazdani42/nvim-tree.lua',
 		requires = 'kyazdani42/nvim-web-devicons'}
     --lsp
+    use 'williamboman/nvim-lsp-installer'
+    use 'p00f/clangd_extensions.nvim'
 	use 'neovim/nvim-lspconfig'
 	use 'hrsh7th/cmp-nvim-lsp'
 	use 'hrsh7th/cmp-buffer'
@@ -21,4 +23,5 @@ return require('packer').startup(function()
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
         })
+    use 'ggandor/leap.nvim'
     end)
