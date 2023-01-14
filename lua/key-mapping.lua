@@ -18,6 +18,8 @@ map('n', 'qq', ':q<CR>', opt)
 map('v', '<', '<gv', opt)
 map('v', '>', '>gv', opt)
 
+map('i', 'jk', '<Esc>', opt)
+
 --split
 map('n', 'sv', ':vsp<CR>', opt)
 map('n', '<A-h>', '<C-w>h', opt)
@@ -42,8 +44,8 @@ map('n', 'tt', ':FloatermNew<CR>', opt)
 map('n', '<C-p>', ':MarkdownPreview<CR>', opt)
 
 --bufferline
-map('n', 'gt', ':bn<CR>', opt)
-map('n', 'Gt', ':bp<CR>', opt)
+map('n', '<A-PageUp>', ':bn<CR>', opt)
+map('n', '<A-PageDown>', ':bp<CR>', opt)
 map('n', 'GT', ':b#<CR>', opt)
 map('n', 'b', ":b", opt)
 
