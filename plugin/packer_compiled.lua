@@ -109,11 +109,6 @@ _G.packer_plugins = {
     path = "/home/y/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
     url = "https://github.com/onsails/lspkind-nvim"
   },
-  ["markdown-preview.nvim"] = {
-    loaded = true,
-    path = "/home/y/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
-    url = "https://github.com/iamcco/markdown-preview.nvim"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -163,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
+  },
+  ["vim-gitgutter"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
+    url = "https://www.gitclone.com/github.com/airblade/vim-gitgutter"
   }
 }
 

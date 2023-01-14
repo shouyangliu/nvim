@@ -35,3 +35,8 @@ vim.cmd "set splitright"
 
 --剪贴板
 vim.cmd "set clipboard+=unnamedplus"
+
+-----vgit
+vim.o.updatetime = 300
+vim.o.insearch = false
+vim.wo.signcolumn = 'yes'
