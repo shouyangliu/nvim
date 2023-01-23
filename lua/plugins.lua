@@ -1,25 +1,26 @@
 return require('packer').startup(function()
-	use 'wbthomason/packer.nvim'
-	use 'junegunn/seoul256.vim' --theme
+	use 'https://www.gitclone.com/github.com/wbthomason/packer.nvim'
+	use 'https://www.gitclone.com/github.com/junegunn/seoul256.vim' --theme
 	use {
-		'kyazdani42/nvim-tree.lua',
-		requires = 'kyazdani42/nvim-web-devicons'}
+		'https://www.gitclone.com/github.com/kyazdani42/nvim-tree.lua',
+		requires = 'https://www.gitclone.com/github.com/kyazdani42/nvim-web-devicons'}
     --lsp
-    use 'williamboman/nvim-lsp-installer'
-    use 'p00f/clangd_extensions.nvim'
-	use 'neovim/nvim-lspconfig'
-	use 'hrsh7th/cmp-nvim-lsp'
-	use 'hrsh7th/cmp-buffer'
-	use 'hrsh7th/cmp-path'
-	use 'hrsh7th/cmp-cmdline'
-	use 'hrsh7th/nvim-cmp'
-    use 'onsails/lspkind-nvim'
+    use 'https://www.gitclone.com/github.com/williamboman/mason.nvim'
+    use 'https://www.gitclone.com/github.com/williamboman/mason-lspconfig.nvim'
+--    use 'https://www.gitclone.com/github.com/p00f/clangd_extensions.nvim'
+	use 'https://www.gitclone.com/github.com/neovim/nvim-lspconfig'
+	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-nvim-lsp'
+	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-buffer'
+	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-path'
+	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-cmdline'
+	use 'https://www.gitclone.com/github.com/hrsh7th/nvim-cmp'
+    use 'https://www.gitclone.com/github.com/onsails/lspkind-nvim'
     --float term
-    use 'voldikss/vim-floaterm'
+    use 'https://www.gitclone.com/github.com/voldikss/vim-floaterm'
     --airline
-    use 'vim-airline/vim-airline'
-    use 'vim-airline/vim-airline-themes'
-    use 'ggandor/leap.nvim'
+    use 'https://www.gitclone.com/github.com/vim-airline/vim-airline'
+    use 'https://www.gitclone.com/github.com/vim-airline/vim-airline-themes'
+    use 'https://www.gitclone.com/github.com/ggandor/leap.nvim'
 --    use {'https://www.gitclone.com/github.com/tanvirtin/vgit.nvim',
 --        requires = 'https://www.gitclone.com/github.com/nvim-lua/plenary.nvim'}
     use 'https://www.gitclone.com/github.com/airblade/vim-gitgutter'

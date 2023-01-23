@@ -10,8 +10,7 @@ vim.cmd "hi Normal ctermfg=252 ctermbg=none" --背景透明
 
 require('plug/lspconfig')
 require('plug/cmp')
-require('plug/nvim-tree')
 require('plug/leap')
 require('plug/airline')
-
+require('plug/lsp_installer')
 
