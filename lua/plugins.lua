@@ -7,7 +7,7 @@ return require('packer').startup(function()
     --lsp
     use 'https://www.gitclone.com/github.com/williamboman/mason.nvim'
     use 'https://www.gitclone.com/github.com/williamboman/mason-lspconfig.nvim'
---    use 'https://www.gitclone.com/github.com/p00f/clangd_extensions.nvim'
+    use 'https://www.gitclone.com/github.com/p00f/clangd_extensions.nvim'
 	use 'https://www.gitclone.com/github.com/neovim/nvim-lspconfig'
 	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-nvim-lsp'
 	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-buffer'

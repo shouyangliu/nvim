@@ -69,6 +69,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["clangd_extensions.nvim"] = {
+    loaded = true,
+    path = "/home/yang/.local/share/nvim/site/pack/packer/start/clangd_extensions.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/yang/.local/share/nvim/site/pack/packer/start/cmp-buffer"
