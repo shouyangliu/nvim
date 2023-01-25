@@ -1,6 +1,7 @@
 return require('packer').startup(function()
 	use 'https://www.gitclone.com/github.com/wbthomason/packer.nvim'
 	use 'https://www.gitclone.com/github.com/junegunn/seoul256.vim' --theme
+	use 'https://www.gitclone.com/github.com/EdenEast/nightfox.nvim' --theme
 	use {
 		'https://www.gitclone.com/github.com/kyazdani42/nvim-tree.lua',
 		requires = 'https://www.gitclone.com/github.com/kyazdani42/nvim-web-devicons'}
