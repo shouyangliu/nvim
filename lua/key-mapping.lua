@@ -4,12 +4,12 @@ vim.g.maploaclleader = " "
 local map = vim.api.nvim_set_keymap
 local opt = {noremap = true, silent = true}
 
-map('i', '""', '""<Left>', opt)
-map('i', "''", "''<Left>", opt)
-map('i', '()', '()<Left>', opt)
-map('i', '[]', '[]<Left>', opt)
-map('i', '{}', '{}<Left>', opt)
-map('i', '<>',  '<><Left>', opt)
+map('i', '"""', '""<Left>', opt)
+map('i', "'''", "''<Left>", opt)
+map('i', '())', '()<Left>', opt)
+map('i', '[]]', '[]<Left>', opt)
+map('i', '{}}', '{}<Left>', opt)
+map('i', '<>>',  '<><Left>', opt)
 
 map('n', 'wq', ':wq<CR>', opt)
 map('n', 'ww', ':w<CR>', opt)
