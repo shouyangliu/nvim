@@ -24,6 +24,7 @@ map('i', '<A-e>', '<End>', opt)
 map('i', '<A-b>', '<Home>', opt)
 map('i', '<A-m>', '<Right>', opt)
 map('i', '<A-v>', '<Left>', opt)
+map('i', 'jk', '<Esc>', opt)
 
 --split
 map('n', 'sv', ':vsp<CR>', opt)
