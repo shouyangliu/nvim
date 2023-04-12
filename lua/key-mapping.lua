@@ -18,8 +18,6 @@ map('n', 'qq', ':q<CR>', opt)
 map('v', '<', '<gv', opt)
 map('v', '>', '>gv', opt)
 
-map('i', '<A-j>', '<Esc>', opt)
-
 map('i', '<A-e>', '<End>', opt)
 map('i', '<A-b>', '<Home>', opt)
 map('i', '<A-m>', '<Right>', opt)

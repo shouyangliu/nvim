@@ -32,13 +32,13 @@ vim.o.timeoutlen = 300
 vim.cmd "set showmatch"
 vim.cmd "set splitbelow"
 vim.cmd "set splitright"
-vim.cmd "set foldmethod=indent" -- fold type
+--vim.cmd "set foldmethod=indent" -- fold type
+vim.cmd "set foldmethod=syntax" -- fold type
 vim.cmd "set foldlevelstart=99" -- 默认不折叠
 
 --剪贴板
 vim.cmd "set clipboard+=unnamedplus"
 
 -----vgit
-vim.o.updatetime = 300
 vim.o.insearch = false
 vim.wo.signcolumn = 'yes'
