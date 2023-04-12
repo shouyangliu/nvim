@@ -14,3 +14,4 @@ sudo npm install -g n
 source ~/.bashrc
 sudo n stable
 #sudo npm i -g pyright
+sudo apt install xclip #neovim 使用系统剪切板
