@@ -13,4 +13,4 @@ require('plug/cmp')
 require('plug/leap')
 require('plug/airline')
 require('plug/lsp_installer')
-
+require('plug/dap')

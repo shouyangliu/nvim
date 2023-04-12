@@ -1,5 +1,6 @@
 -- :h mason-default-settings
 require("mason").setup({
+  log_level = vim.log.levels.DEBUG ,
   ui = {
     icons = {
       package_installed = "✓",

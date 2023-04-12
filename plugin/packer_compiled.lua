@@ -109,10 +109,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/yang/.local/share/nvim/site/pack/packer/start/mason.nvim"
   },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/nightfox.nvim"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/yang/.local/share/nvim/site/pack/packer/start/nvim-cmp"

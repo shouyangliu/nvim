@@ -6,3 +6,18 @@ you need run this to install packer
  the recommend font is "Dejavu"
  
  you need to install lsp by "Mason"
+
+
+#### clangd  无法找到头文件
+r1 :
+    在项目文件夹下新建compile_flags.json, 内容为
+    -I
+    包含头文件的文件夹
+
+    即可
+r2 :
+    通过CMakeLists来添加：
+    在CMakeLists中添加 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+reference from Charlestz in bilibili
+###################################
