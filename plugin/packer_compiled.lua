@@ -89,6 +89,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/yang/.local/share/nvim/site/pack/packer/start/cmp-path"
   },
+  ["cmp-spell"] = {
+    loaded = true,
+    path = "/home/yang/.local/share/nvim/site/pack/packer/start/cmp-spell"
+  },
   ["diffview.nvim"] = {
     loaded = true,
     path = "/home/yang/.local/share/nvim/site/pack/packer/start/diffview.nvim"

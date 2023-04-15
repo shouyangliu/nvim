@@ -53,4 +53,3 @@ map('n', '<A-p>', ':bp<CR>', opt)
 map('n', 'GT', ':b#<CR>', opt)
 map('n', 'b', ":b", opt)
 
-

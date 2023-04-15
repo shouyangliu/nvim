@@ -21,3 +21,7 @@ r2 :
 
 reference from Charlestz in bilibili
 ###################################
+
+#### clangd format
+在根目录下新建.clangd-format
+ 内容是 BasedOnStyle: Google

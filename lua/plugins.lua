@@ -14,6 +14,7 @@ return require('packer').startup(function()
 	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-path'
 	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-cmdline'
 	use 'https://www.gitclone.com/github.com/hrsh7th/nvim-cmp'
+    use 'https://www.gitclone.com/github.com/f3fora/cmp-spell'
     use 'https://www.gitclone.com/github.com/onsails/lspkind-nvim'
     --float term
     use 'https://www.gitclone.com/github.com/voldikss/vim-floaterm'
