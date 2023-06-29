@@ -31,7 +31,16 @@ return require('packer').startup(function()
     use 'https://www.gitclone.com/github.com/ggandor/leap.nvim'
     use 'https://www.gitclone.com/github.com/airblade/vim-gitgutter'
     -- view git diff
-    use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
-    -- 代码高亮插件
-    use { 'https://www.gitclone.com/github.com/nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+    use { 'https://www.gitclone.com/github.com/sindrets/diffview.nvim', requires = 'https://www.gitclone.com/github.com/nvim-lua/plenary.nvim' }
+    -- 代码高亮插件 总是报错
+    use { 'https://www.gitclone.com/github.com/nvim-treesitter/nvim-treesitter'}
+    use {
+      'nvim-telescope/telescope.nvim', tag = '0.1.1',
+    -- or                            , branch = '0.1.x',
+      requires = { {'nvim-lua/plenary.nvim'} }
+    }
+    use {
+      "startup-nvim/startup.nvim",
+      requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+    }
     end)

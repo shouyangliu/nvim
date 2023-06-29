@@ -44,8 +44,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/yang/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/yang/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/yang/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/yang/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/yang/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/y/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/y/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/y/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/y/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/y/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -71,95 +71,103 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["clangd_extensions.nvim"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/clangd_extensions.nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/clangd_extensions.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/cmp-buffer"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/cmp-buffer"
   },
   ["cmp-cmdline"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/cmp-cmdline"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/cmp-cmdline"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/cmp-path"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/cmp-path"
   },
   ["cmp-spell"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/cmp-spell"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/cmp-spell"
   },
   ["diffview.nvim"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/diffview.nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/diffview.nvim"
   },
   ["leap.nvim"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/leap.nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/leap.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/mason.nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/mason.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/nvim-cmp"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/packer.nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
   ["seoul256.vim"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/seoul256.vim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/seoul256.vim"
+  },
+  ["startup.nvim"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/startup.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
   ["vim-airline"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/vim-airline"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-airline"
   },
   ["vim-airline-themes"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/vim-airline-themes"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-airline-themes"
   },
   ["vim-floaterm"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/vim-floaterm"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-floaterm"
   },
   ["vim-gitgutter"] = {
     loaded = true,
-    path = "/home/yang/.local/share/nvim/site/pack/packer/start/vim-gitgutter"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-gitgutter"
   }
 }
 
