@@ -33,7 +33,7 @@ return require('packer').startup(function()
     -- view git diff
     use { 'https://www.gitclone.com/github.com/sindrets/diffview.nvim', requires = 'https://www.gitclone.com/github.com/nvim-lua/plenary.nvim' }
     -- 代码高亮插件 总是报错
-    use { 'https://www.gitclone.com/github.com/nvim-treesitter/nvim-treesitter'}
+    use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
     use {
       'nvim-telescope/telescope.nvim', tag = '0.1.1',
     -- or                            , branch = '0.1.x',
@@ -43,4 +43,19 @@ return require('packer').startup(function()
       "startup-nvim/startup.nvim",
       requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
     }
+    -- distance 
+    use {
+      'chipsenkbeil/distant.nvim',
+      branch = 'v0.2',
+      config = function()
+        require('distant').setup {
+          -- Applies Chip's personal settings to every machine you connect to
+          --
+          -- 1. Ensures that distant servers terminate with no connections
+          -- 2. Provides navigation bindings for remote directories
+          -- 3. Provides keybinding to jump into a remote file's parent directory
+          ['*'] = require('distant.settings').chip_default()
+        }
+  end
+}
     end)
