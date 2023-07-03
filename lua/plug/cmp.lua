@@ -2,31 +2,31 @@ local lspkind = require('lspkind')
 local cmp = require 'cmp'
 
 local kind_icons = {
-    Class = " ",
-    Color = " ",
-    Constant = "ﲀ ",
-    Constructor = " ",
-    Enum = "練",
-    EnumMember = " ",
+    Class = "",
+    Color = "",
+    Constant = "ﲀ",
+    Constructor = "",
+    Enum = "",
+    EnumMember = "",
     Event = " ",
-    Field = " ",
-    File = "",
-    Folder = " ",
-    Function = " ",
-    Interface = "ﰮ ",
-    Keyword = " ",
-    Method = " ",
-    Module = " ",
-    Operator = "",
+    Field = "",
+    File = "",
+    Folder = "",
+    Function = "󰊕",
+    Interface = "",
+    Keyword = "",
+    Method = "",
+    Module = "󰕳",
+    Operator = "",
     Property = " ",
-    Reference = " ",
-    Snippet = " ",
-    Struct = " ",
-    Text = " ",
-    TypeParameter = " ",
-    Unit = "塞",
-    Value = " ",
-    Variable = " ",
+    Reference = "",
+    Snippet = "",
+    Struct = "",
+    Text = "󰊄",
+    TypeParameter = "",
+    Unit = "󰚯",
+    Value = "",
+    Variable = "",
 }
 
 cmp.setup {
@@ -59,10 +59,10 @@ cmp.setup {
             return vim_item
         end,
     },
-    windows = {
-        --        completion =cmp.config.window.bordered(),
-        --        documentation = cmp.config.window.bordered(),
-    },
+    --window = {
+    --            completion = cmp.config.window.bordered(),
+    --            documentation = cmp.config.window.bordered(),
+    --},
 }
 
 -- Use buffer source for `/`.
