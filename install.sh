@@ -15,3 +15,4 @@ source ~/.bashrc
 sudo n stable
 #sudo npm i -g pyright
 sudo apt install xclip #neovim 使用系统剪切板
+sudo apt install ripgrep

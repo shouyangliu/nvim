@@ -141,6 +141,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/popup.nvim"
+  },
   ["seoul256.vim"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/seoul256.vim"
@@ -152,6 +156,10 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/tokyonight.nvim"
   },
   ["vim-airline"] = {
     loaded = true,

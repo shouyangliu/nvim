@@ -4,6 +4,7 @@ return require('packer').startup(function()
 
     -- theme
 	use 'https://www.gitclone.com/github.com/junegunn/seoul256.vim' --theme
+	use 'https://www.gitclone.com/github.com/folke/tokyonight.nvim' --theme
 
     --nvim tree
 	use {
@@ -16,11 +17,11 @@ return require('packer').startup(function()
 	use 'https://www.gitclone.com/github.com/neovim/nvim-lspconfig'
 
     -- cmp
-	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-nvim-lsp'
-	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-buffer'
-	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-path'
-	use 'https://www.gitclone.com/github.com/hrsh7th/cmp-cmdline'
-	use 'https://www.gitclone.com/github.com/hrsh7th/nvim-cmp'
+    use 'https://www.gitclone.com/github.com/hrsh7th/cmp-nvim-lsp'
+    use 'https://www.gitclone.com/github.com/hrsh7th/cmp-buffer'
+    use 'https://www.gitclone.com/github.com/hrsh7th/cmp-path'
+    use 'https://www.gitclone.com/github.com/hrsh7th/cmp-cmdline'
+    use 'hrsh7th/nvim-cmp'
     use 'https://www.gitclone.com/github.com/f3fora/cmp-spell'
     use 'https://www.gitclone.com/github.com/onsails/lspkind-nvim'
     --float term
