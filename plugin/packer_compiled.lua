@@ -97,11 +97,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/diffview.nvim"
   },
-  ["distant.nvim"] = {
-    config = { "\27LJ\2\2t\0\0\4\0\a\0\r6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\5\0006\2\0\0'\3\3\0B\2\2\0029\2\4\2B\2\1\2=\2\6\1B\0\2\1K\0\1\0\6*\1\0\0\17chip_default\21distant.settings\nsetup\fdistant\frequire\0" },
-    loaded = true,
-    path = "/home/y/.local/share/nvim/site/pack/packer/start/distant.nvim"
-  },
   ["leap.nvim"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/leap.nvim"
@@ -177,10 +172,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: distant.nvim
-time([[Config for distant.nvim]], true)
-try_loadstring("\27LJ\2\2t\0\0\4\0\a\0\r6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\5\0006\2\0\0'\3\3\0B\2\2\0029\2\4\2B\2\1\2=\2\6\1B\0\2\1K\0\1\0\6*\1\0\0\17chip_default\21distant.settings\nsetup\fdistant\frequire\0", "config", "distant.nvim")
-time([[Config for distant.nvim]], false)
 if should_profile then save_profiles() end
 
 end)
