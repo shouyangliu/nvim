@@ -22,7 +22,7 @@ return require('packer').startup(function()
     use 'https://www.gitclone.com/github.com/hrsh7th/cmp-path'
     use 'https://www.gitclone.com/github.com/hrsh7th/cmp-cmdline'
     use 'hrsh7th/nvim-cmp'
-    use 'https://www.gitclone.com/github.com/f3fora/cmp-spell'
+    use 'f3fora/cmp-spell'
     use 'https://www.gitclone.com/github.com/onsails/lspkind-nvim'
     --float term
     use 'https://www.gitclone.com/github.com/voldikss/vim-floaterm'
@@ -33,7 +33,7 @@ return require('packer').startup(function()
     use 'https://www.gitclone.com/github.com/airblade/vim-gitgutter'
     -- view git diff
     use { 'https://www.gitclone.com/github.com/sindrets/diffview.nvim', requires = 'https://www.gitclone.com/github.com/nvim-lua/plenary.nvim' }
-    -- 代码高亮插件 总是报错
+    -- 代码高亮插件
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
     use {
       'nvim-telescope/telescope.nvim', tag = '0.1.1',
@@ -44,5 +44,5 @@ return require('packer').startup(function()
       "startup-nvim/startup.nvim",
       requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
     }
-
+    use { "https://gh.api.99988866.xyz/https://github.com/shellRaining/hlchunk.nvim.git" }
     end)

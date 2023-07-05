@@ -97,6 +97,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/diffview.nvim"
   },
+  ["hlchunk.nvim"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/hlchunk.nvim"
+  },
   ["leap.nvim"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/leap.nvim"
@@ -140,10 +144,6 @@ _G.packer_plugins = {
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/plenary.nvim"
-  },
-  ["popup.nvim"] = {
-    loaded = true,
-    path = "/home/y/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
   ["seoul256.vim"] = {
     loaded = true,
