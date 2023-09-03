@@ -27,8 +27,8 @@ return require('packer').startup(function()
     --float term
     use 'https://www.gitclone.com/github.com/voldikss/vim-floaterm'
     --airline
-    use 'https://www.gitclone.com/github.com/vim-airline/vim-airline'
-    use 'https://www.gitclone.com/github.com/vim-airline/vim-airline-themes'
+    --use 'https://www.gitclone.com/github.com/vim-airline/vim-airline'
+    --use 'https://www.gitclone.com/github.com/vim-airline/vim-airline-themes'
     use 'https://www.gitclone.com/github.com/ggandor/leap.nvim'
     use 'https://www.gitclone.com/github.com/airblade/vim-gitgutter'
     -- view git diff
@@ -45,4 +45,5 @@ return require('packer').startup(function()
       requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
     }
     use { "https://gh.api.99988866.xyz/https://github.com/shellRaining/hlchunk.nvim.git" }
+    use {"https://gh.api.99988866.xyz/https://github.com/tamton-aquib/staline.nvim"}
     end)

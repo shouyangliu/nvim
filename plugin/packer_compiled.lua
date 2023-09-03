@@ -97,9 +97,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/diffview.nvim"
   },
-  ["hlchunk.nvim"] = {
+  ["hlchunk.nvim.git"] = {
     loaded = true,
-    path = "/home/y/.local/share/nvim/site/pack/packer/start/hlchunk.nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/hlchunk.nvim.git"
   },
   ["leap.nvim"] = {
     loaded = true,
@@ -149,6 +149,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/seoul256.vim"
   },
+  ["staline.nvim"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/staline.nvim"
+  },
   ["startup.nvim"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/startup.nvim"
@@ -160,14 +164,6 @@ _G.packer_plugins = {
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/tokyonight.nvim"
-  },
-  ["vim-airline"] = {
-    loaded = true,
-    path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-airline"
-  },
-  ["vim-airline-themes"] = {
-    loaded = true,
-    path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-airline-themes"
   },
   ["vim-floaterm"] = {
     loaded = true,
