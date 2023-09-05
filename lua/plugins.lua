@@ -32,7 +32,8 @@ return require('packer').startup(function()
     use 'https://www.gitclone.com/github.com/ggandor/leap.nvim'
     use 'https://www.gitclone.com/github.com/airblade/vim-gitgutter'
     -- view git diff
-    use { 'https://www.gitclone.com/github.com/sindrets/diffview.nvim', requires = 'https://www.gitclone.com/github.com/nvim-lua/plenary.nvim' }
+    use { 'https://www.gitclone.com/github.com/sindrets/diffview.nvim', 
+            requires = 'https://www.gitclone.com/github.com/nvim-lua/plenary.nvim' }
     -- 代码高亮插件
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
     use {
@@ -45,5 +46,7 @@ return require('packer').startup(function()
       requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
     }
     use { "https://gh.api.99988866.xyz/https://github.com/shellRaining/hlchunk.nvim.git" }
+    --use('https://gh.api.99988866.xyz/https://github.com/Bekaboo/dropbar.nvim')
     use {"https://gh.api.99988866.xyz/https://github.com/tamton-aquib/staline.nvim"}
+    --use {"https://gh.api.99988866.xyz/https://github.com/folke/flash.nvim"}
     end)

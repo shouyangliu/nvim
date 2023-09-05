@@ -93,6 +93,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/cmp-spell"
   },
+  ["deadcolumn.nvim"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/deadcolumn.nvim"
+  },
   ["diffview.nvim"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/diffview.nvim"

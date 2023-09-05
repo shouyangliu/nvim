@@ -4,12 +4,16 @@ vim.g.fileencodings= 'UTF-8'
 vim.g.termencoding= 'UTF-8'
 vim.wo.number = true --显示行号
 vim.wo.relativenumber = true --显示相对行号
-vim.wo.cursorline = treu --highlighe the line where you are
+--最大列数
+vim.wo.colorcolumn = "120"
+vim.wo.cursorline = true --highlighe the line where you are
 --缩进
 vim.o.tabstop = 4
 vim.bo.tabstop = 4
 vim.o.shiftwidth = 4
 vim.bo.shiftwidth = 4
+
+vim.o.showtabline=2
 --对齐
 vim.o.expandtab = true
 vim.bo.expandtab = true
