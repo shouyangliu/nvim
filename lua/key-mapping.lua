@@ -18,13 +18,17 @@ map('n', 'qq', ':q<CR>', opt)
 map('v', '<', '<gv', opt)
 map('v', '>', '>gv', opt)
 
-map('i', '<A-e>', '<End>', opt)
-map('i', '<A-b>', '<Home>', opt)
-map('i', '<A-m>', '<Right>', opt)
-map('i', '<A-v>', '<Left>', opt)
+map('i', '<C-e>', '<End>', opt)
+map('i', '<C-h>', '<Home>', opt)
+map('i', '<C-n>', '<Right>', opt)
+map('i', '<C-p>', '<Left>', opt)
 map('i', 'jk', '<Esc>', opt)
 
+
+map('n', 'ee', '<End>', opt)
+map('n', 'eh', '<Home>', opt)
 --split
+
 map('n', 'sv', ':vsp<CR>', opt)
 map('n', '<A-h>', '<C-w>h', opt)
 map('n', '<A-j>', '<C-w>j', opt)
@@ -39,13 +43,13 @@ map('n', '<A-Left>', ':vertical resize -2<CR>', opt)
 map('n', '<A-Right>', ':vertical resize +2<CR>', opt)
 
 --nvim-tree
-map("n", '<A-t>', ':NvimTreeToggle<CR>', opt)
+map("n", '<Leader>t', ':NvimTreeToggle<CR>', opt)
  
 --float term
 map('n', 'tt', ':FloatermNew<CR>', opt)
 
 --markdown
-map('n', '<C-p>', ':MarkdownPreview<CR>', opt)
+--map('n', '<C-p>', ':MarkdownPreview<CR>', opt)
 
 --bufferline
 map('n', '<A-n>', ':bn<CR>', opt)

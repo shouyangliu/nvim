@@ -46,7 +46,9 @@ return require('packer').startup(function()
       requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
     }
     use { "https://gh.api.99988866.xyz/https://github.com/shellRaining/hlchunk.nvim.git" }
-    --use('https://gh.api.99988866.xyz/https://github.com/Bekaboo/dropbar.nvim')
+    use('https://gh.api.99988866.xyz/https://github.com/Bekaboo/dropbar.nvim')
     use {"https://gh.api.99988866.xyz/https://github.com/tamton-aquib/staline.nvim"}
     --use {"https://gh.api.99988866.xyz/https://github.com/folke/flash.nvim"}
-    end)
+    use {'petertriho/nvim-scrollbar'}
+
+end)

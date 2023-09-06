@@ -29,7 +29,7 @@ vim.o.cmdheight = 2
 vim.o.autoread = true
 vim.bo.autoread = true
 vim.o.backup = false
-vim.o.writbackup = false
+--vim.o.writbackup = false
 vim.o.swapfile = false
 vim.o.updatetime = 300
 vim.o.timeoutlen = 300
@@ -44,5 +44,5 @@ vim.cmd "set foldlevelstart=99" -- 默认不折叠
 vim.cmd "set clipboard+=unnamedplus"
 
 -----vgit
-vim.o.insearch = false
+--vim.o.insearch = false
 vim.wo.signcolumn = 'yes'
