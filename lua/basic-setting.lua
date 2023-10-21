@@ -37,8 +37,12 @@ vim.cmd "set showmatch"
 vim.cmd "set splitbelow"
 vim.cmd "set splitright"
 --vim.cmd "set foldmethod=indent" -- fold type
-vim.cmd "set foldmethod=syntax" -- fold type
-vim.cmd "set foldlevelstart=99" -- 默认不折叠
+--vim.wo.foldmethod = 'expr'
+--vim.wo.foldexpr = 'nvim_treesitter#foldexpr()'
+--vim.o.foldcolumn = '1'
+--vim.o.foldlevel = 99
+--vim.o.foldlevelstart=99 -- 默认不折叠
+--vim.o.foldenable = false
 
 --剪贴板
 vim.cmd "set clipboard+=unnamedplus"

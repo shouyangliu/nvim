@@ -2,7 +2,7 @@
 require('stabline').setup {
     style       = "slant", -- others: arrow, slant, bubble
     stab_left   = "┃",
-    stab_right  = ">",
+    stab_right  = "",
     bg = "#986fec",
     fg = "black",
     -- fg       = Default is fg of "Normal".
@@ -23,19 +23,18 @@ require('stabline').setup {
 require("staline").setup {
 	sections = {
 		left = {
-			'▊', ' ', { 'Evil', ' ' }, ' ', 'mode',         -- The mode and evil sign
-			'file_size', ' ', { 'StalineGit', 'branch' },                       -- Filesize
-			{ 'StalineFile', 'file_name' }, ' '       -- Filename in different highlight
+			'▊', ' ',  ' ' , ' ', 'mode',         -- The mode and evil sign
+			'file_size', ' ',  'branch' ,                       -- Filesize
+			 'file_name' , ' '       -- Filename in different highlight
 		},
 		mid = {'lsp_name', ' : ', 'lsp' },                      -- "lsp_name" is still a little buggy
 		right = {
 			{ 'StalineEnc', vim.bo.fileencoding:upper() }, '  ',  -- Example for custom section
-			{ 'StalineEnc', 'cool_symbol' }, ' ',                 -- the cool_symbol for your OS
 			' ', 'line_column', '▊', 'cwd',  ' have a good day, yl'                 -- Branch Name in different highlight
 		}
 	},
 	defaults = {
-		bg = "#202328",
+		bg = "#444444",
         line_column = "%l:%c [%L,%p%%]",
 		branch_symbol = " "
 	},
