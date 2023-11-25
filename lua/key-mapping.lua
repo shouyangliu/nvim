@@ -24,7 +24,6 @@ map('i', '<C-n>', '<Right>', opt)
 map('i', '<C-p>', '<Left>', opt)
 map('i', 'jk', '<Esc>', opt)
 
-
 map('n', 'ee', '<End>', opt)
 map('n', 'eh', '<Home>', opt)
 --split

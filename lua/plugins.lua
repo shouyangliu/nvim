@@ -7,6 +7,7 @@ return require('packer').startup(function()
 	use 'https://www.gitclone.com/github.com/folke/tokyonight.nvim' --theme
     use { "https://www.gitclone.com/github.com/catppuccin/nvim", as = "catppuccin" }
     use {'https://gh.api.99988866.xyz/https://github.com/marko-cerovac/material.nvim'} --theme
+    use {"rafamadriz/neon"}
 
     --nvim tree
 	use {
@@ -25,15 +26,27 @@ return require('packer').startup(function()
             require('lspsaga').setup({})
         end,
     })
-
+    
     -- cmp
-    use 'https://www.gitclone.com/github.com/hrsh7th/cmp-nvim-lsp'
-    use 'https://www.gitclone.com/github.com/hrsh7th/cmp-buffer'
-    use 'https://www.gitclone.com/github.com/hrsh7th/cmp-path'
-    use 'https://www.gitclone.com/github.com/hrsh7th/cmp-cmdline'
-    use 'hrsh7th/nvim-cmp'
-    use 'f3fora/cmp-spell'
-    use 'https://www.gitclone.com/github.com/onsails/lspkind-nvim'
+    use 'https://gh.api.99988866.xyz/https://github.com/hrsh7th/cmp-nvim-lsp'
+    use 'https://gh.api.99988866.xyz/https://github.com/hrsh7th/cmp-buffer'
+    use 'https://gh.api.99988866.xyz/https://github.com/hrsh7th/cmp-path'
+    use 'https://gh.api.99988866.xyz/https://github.com/hrsh7th/cmp-cmdline'
+    use 'https://gh.api.99988866.xyz/https://github.com/hrsh7th/nvim-cmp'
+    use 'https://gh.api.99988866.xyz/https://github.com/f3fora/cmp-spell'
+    use 'https://gh.api.99988866.xyz/https://github.com/onsails/lspkind-nvim'
+
+    -- For vsnip users.
+    use 'https://gh.api.99988866.xyz/https://github.com/hrsh7th/cmp-vsnip'
+    use 'https://gh.api.99988866.xyz/https://github.com/hrsh7th/vim-vsnip'
+    use({
+    	"https://gh.api.99988866.xyz/https://github.com/L3MON4D3/LuaSnip",
+    	-- follow latest release.
+    	tag = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
+    	-- install jsregexp (optional!:).
+    	run = "make install_jsregexp"
+    })
+    use {'https://gh.api.99988866.xyz/https://github.com/saadparwaiz1/cmp_luasnip'}
 
     --float term
     use 'https://www.gitclone.com/github.com/voldikss/vim-floaterm'

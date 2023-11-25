@@ -69,6 +69,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/LuaSnip"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/catppuccin"
@@ -96,6 +100,14 @@ _G.packer_plugins = {
   ["cmp-spell"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/cmp-spell"
+  },
+  ["cmp-vsnip"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/cmp-vsnip"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/cmp_luasnip"
   },
   ["diffview.nvim"] = {
     loaded = true,
@@ -143,9 +155,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/material.nvim"
   },
-  ["moonlight.nvim"] = {
+  neon = {
     loaded = true,
-    path = "/home/y/.local/share/nvim/site/pack/packer/start/moonlight.nvim"
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/neon"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -202,6 +214,10 @@ _G.packer_plugins = {
   ["vim-floaterm"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-floaterm"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/vim-vsnip"
   }
 }
 
