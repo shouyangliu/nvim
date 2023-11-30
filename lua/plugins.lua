@@ -84,4 +84,24 @@ return require('packer').startup(function()
 
     --fold
     use {'jghauser/fold-cycle.nvim'}
+
+    -- winbar
+    use({
+        "utilyre/barbecue.nvim",
+        tag = "*",
+        requires = {
+            "SmiteshP/nvim-navic",
+            "nvim-tree/nvim-web-devicons", -- optional dependency
+        },
+        after = "nvim-web-devicons", -- keep this if you're using NvChad
+        config = function()
+        require("barbecue").setup()
+        end,
+        })
+
+    -- terminal 
+    use {'s0n7ax/nvim-terminal'}
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+      require("toggleterm").setup()
+    end}
 end)

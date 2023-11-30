@@ -73,6 +73,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/LuaSnip"
   },
+  ["barbecue.nvim"] = {
+    config = { "\27LJ\2\0026\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rbarbecue\frequire\0" },
+    loaded = true,
+    needs_bufread = false,
+    path = "/home/y/.local/share/nvim/site/pack/packer/opt/barbecue.nvim"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/catppuccin"
@@ -167,9 +173,17 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
+  ["nvim-navic"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-navic"
+  },
   ["nvim-scrollbar"] = {
     loaded = true,
     path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-scrollbar"
+  },
+  ["nvim-terminal"] = {
+    loaded = true,
+    path = "/home/y/.local/share/nvim/site/pack/packer/start/nvim-terminal"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
