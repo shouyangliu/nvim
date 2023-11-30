@@ -37,6 +37,12 @@ vim.g.neovide_light_angle_degrees = 45
 vim.g.neovide_light_radius = 5
 -- hiding the mouse when typing
 vim.g.neovide_hide_mouse_when_typing = false
+vim.g.neovide_refresh_rate = 60
+vim.g.neovide_refresh_rate_idle = 5
+-- 输入法
+vim.g.neovide_input_ime = true
+--动画
+vim.g.neovide_cursor_vfx_mode = "pixiedust"
 
 -- plugin
 
@@ -54,3 +60,4 @@ require('plug/gitsigns')
 require('plug/scrollbar')
 require('plug/git_blame')
 require('plug/fold_cycle')
+require('plug/telescope')
